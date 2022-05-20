@@ -6,7 +6,7 @@ This is a restAPI that keeps track of To Do List items. It can be called from th
 
 My 'To Do List' is a basic predecessor for a larger application that I am working on, which will allow a user to Make projects, and add sub-tasks to the Project. The goal of this project is to produce a project management application that focuses on the needs of small organizations with high role turn-over, prioritizing positions/roles within the organization versus the person, therefore allowing projects to not be interupted when new officers are onboarded.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video] (https://youtu.be/rWBPvvLW6aw)
 
 # Cloud Database
 
@@ -23,7 +23,7 @@ Mongoose
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+Some sites that were helpful:
 
 - MongoDB https://www.mongodb.com/languages/express-mongodb-rest-api-tutorial
 
@@ -31,7 +31,7 @@ Mongoose
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+Tasks to finish integrating and add:
 
 - User login
 - Parent task "owner" (sort by theme, school, work, personal)
