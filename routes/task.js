@@ -23,6 +23,9 @@ router.post('/add-task', [
     .isLength({
       min: 5
     }),
+    body('date').trim().isLength({
+      min: 5
+    }),
   ],
   taskController.postAddTask
 );

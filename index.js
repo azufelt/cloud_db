@@ -11,11 +11,7 @@ const mongoose = require('mongoose');
 const PORT = process.env.PORT || 5000;
 // const PORT = 5000;
 
-// prevents cross site request forgery attack
-// https://www.geeksforgeeks.org/implementing-csurf-middleware-in-node-js/
 const csurf = require('csurf');
-// to store messages displayed to user
-// https://www.npmjs.com/package/connect-flash
 const flash = require('connect-flash');
 
 // Swagger
@@ -27,7 +23,6 @@ const taskRoute = require('./routes/task');
 
 //connect to database
 const MONGODB_URI = process.env.MONGODB_URI;
-// deploy platform
 const HOST_URL = process.env.HOST_URL;
 
 // initialize object in db

@@ -42,6 +42,7 @@ exports.postAddTask = (req, res, next) => {
 
 // GET task by ID
 exports.getTaskById = (req, res, next) => {
+  // const taskID = req.params.taskId;
   Task.findById(req.params.taskId)
     .then(task => {
       console.log("Your task was updated!");
