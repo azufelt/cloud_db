@@ -1,6 +1,6 @@
 # Overview
 
-As a software engineer it is most important to me to develop applications that matter, than contribute to making a difference in daily lives.
+As a software engineer it is most important to me to develop applications that matter, that contribute to making a difference in daily lives.
 
 This is a restAPI that keeps track of To Do List items. It can be called from the frontend view of a program that allows the user to enter a To Do List item title, and a description. The list items are stored as objects in MongoDB, and can be returned as a response request for all items, a single item by using the objectID, or can also be edited or deleted using the same.
 
